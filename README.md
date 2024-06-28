@@ -9,3 +9,4 @@ Le projet vise à automatiser l'analyse des données de ventes à l'aide de Jenk
         Git : Gestion de version pour le code source.
         
 ## configurer un Webhook dans Github
+instaler ngork
