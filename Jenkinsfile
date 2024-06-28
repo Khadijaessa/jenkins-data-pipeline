@@ -9,7 +9,7 @@ pipeline {
                 script {
                     // Choisissez la commande en fonction de votre script
                     sh python3 -m venv pythenv
-                    sh source myenv/bin/activate
+                    sh source pythenv/bin/activate
                     sh 'pip install pandas' // Installer les dépendances
                     sh 'python data_analysis.py' // Exécuter le script Python
                 }
