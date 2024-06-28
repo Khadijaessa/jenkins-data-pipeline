@@ -11,8 +11,7 @@ pipeline {
             steps {
                 script {
                     // Créer et activer un environnement virtuel
-                    sh 'apt install python3.12-venv'
-
+                    sh 'sudo apt update && sudo apt install -y python3-venv'
                     sh 'python3 -m venv pythenv'
                     sh '. pythenv/bin/activate && pip install --upgrade pip'
                     
